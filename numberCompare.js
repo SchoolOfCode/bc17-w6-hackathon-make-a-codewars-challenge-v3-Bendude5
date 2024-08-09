@@ -10,15 +10,5 @@
  */
 
 export const numberCompareFunction = (number1, number2) => {
-    if(typeof number1 !== 'number' && typeof number2 !== 'number')
-        {
-            return "Please enter a valid number!";
-        }
-    if (number1 === number2){
-        return true;
-    } else{
-        return false;
-    }
-}
 
-console.log(numberCompareFunction(2, 2));
+}
